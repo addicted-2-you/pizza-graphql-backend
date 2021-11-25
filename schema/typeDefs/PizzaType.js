@@ -16,22 +16,31 @@ const PizzaType = new GraphQLObjectType({
     id: {
       type: new GraphQLNonNull(GraphQLID),
     },
+
     name: {
       type: new GraphQLNonNull(GraphQLString),
     },
+
     image: {
       type: new GraphQLNonNull(GraphQLString),
     },
+
     popularity: {
       type: new GraphQLNonNull(GraphQLInt),
     },
+
     modifications: {
       type: GraphQLList(ModificationType),
+
       resolve(parentValue) {
         return modificationsData.filter((modification) =>
           modification.pizzasIds.includes(parentValue.id)
         );
       },
+    },
+
+    types: {
+      type: GraphQLList(GraphQLString),
     },
   },
 });
