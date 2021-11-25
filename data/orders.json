@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "667df81c-10f4-4ddf-b656-7e77f371c8b9",
+    "totalPrice": 101.95,
+    "totalAmount": 5,
+    "orderedPizzas": [
+      {
+        "dough": "тонкое",
+        "size": 26,
+        "price": 14.99,
+        "amount": 1,
+        "pizzaName": "Карбонара"
+      },
+      {
+        "dough": "тонкое",
+        "size": 26,
+        "price": 16.99,
+        "amount": 2,
+        "pizzaName": "5 сыров"
+      },
+      {
+        "dough": "тонкое",
+        "size": 30,
+        "price": 26.49,
+        "amount": 2,
+        "pizzaName": "Креветки с ананасами"
+      }
+    ]
+  },
+  {
+    "id": "97ba675c-cf29-4587-b91d-2d9faf3cff87",
+    "totalPrice": 101.95,
+    "totalAmount": 5,
+    "orderedPizzas": [
+      {
+        "dough": "тонкое",
+        "size": 26,
+        "price": 14.99,
+        "amount": 1,
+        "pizzaName": "Карбонара"
+      },
+      {
+        "dough": "тонкое",
+        "size": 26,
+        "price": 16.99,
+        "amount": 2,
+        "pizzaName": "5 сыров"
+      },
+      {
+        "dough": "тонкое",
+        "size": 30,
+        "price": 26.49,
+        "amount": 2,
+        "pizzaName": "Креветки с ананасами"
+      }
+    ]
+  }
+]
